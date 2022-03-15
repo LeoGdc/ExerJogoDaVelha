@@ -1,76 +1,102 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity"
     android:background="@drawable/menu"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
 
->
+    tools:context=".MainActivity"
+    android:id="@+id/linearLayout">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/amatic_sc"
+            android:text="Jogo da Velha"
+            android:textColor="@color/shiny"
+            android:textSize="100px"
+            android:textStyle="bold"
+            android:layout_gravity="start"
+            android:layout_marginLeft="25px"
+            />
+
+
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/gh"
+        android:visibility="visible"
+        tools:layout_conversion_absoluteHeight="120dp"
+        tools:layout_editor_absoluteY="218dp"
+        tools:layout_editor_absoluteX="63dp"
+        tools:layout_conversion_absoluteWidth="234dp">
+
+    </ImageView>
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:fontFamily="@font/amatic_sc"
-        android:text="Jogo da Velha"
-        android:textColor="@color/shiny"
-        android:textSize="100px"
-        android:textStyle="bold"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        android:layout_marginTop="15px"
-        android:layout_marginLeft="15dp" />
-
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="830px"
+        android:layout_marginTop="120px"
+        android:layout_marginBottom="125px"
         android:fontFamily="@font/amatic_sc"
         android:text="Tipo de Jogo"
         android:textColor="@color/black"
         android:textSize="75px"
         android:textStyle="bold"
-        android:gravity="center">
+        tools:layout_conversion_absoluteHeight="33dp"
+        tools:layout_conversion_absoluteWidth="84dp"
+        tools:layout_editor_absoluteX="138dp"
+        tools:layout_editor_absoluteY="338dp">
 
     </TextView>
 
 
     <Button
-        android:layout_width="165dp"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="1150px"
+        android:layout_width="221dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="100px"
         android:backgroundTint="@color/eton"
         android:fontFamily="@font/amatic_sc"
-        android:gravity="start"
         android:text="Jogador Vs Jogador"
         android:textColor="@color/black"
-        android:textStyle="bold">
+        android:textSize="55px"
+        android:textStyle="bold"
+        tools:layout_conversion_absoluteHeight="48dp"
+        tools:layout_conversion_absoluteWidth="165dp"
+        tools:layout_editor_absoluteX="97dp"
+        tools:layout_editor_absoluteY="371dp">
+
 
     </Button>
 
     <Button
-        android:layout_width="165dp"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="1350px"
+        android:layout_width="221dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="25px"
         android:backgroundTint="@color/eton"
         android:fontFamily="@font/amatic_sc"
         android:text="Jogador Vs Cpu"
         android:textColor="@color/black"
+        android:textSize="55px"
         android:textStyle="bold"
-        >
+        tools:layout_conversion_absoluteHeight="48dp"
+        tools:layout_conversion_absoluteWidth="165dp"
+        tools:layout_editor_absoluteX="97dp"
+        tools:layout_editor_absoluteY="419dp">
 
     </Button>
-    <ImageView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:src="@drawable/gh"
-        android:visibility="visible">
+</LinearLayout>
 
-    </ImageView>
 </LinearLayout>
 
 
