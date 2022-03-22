@@ -52,13 +52,19 @@
     <LinearLayout
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:orientation="vertical"
+        android:background="@color/powder">
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
         android:gravity="center_horizontal"
         android:orientation="horizontal">
 
         <Button
             android:layout_width="100dp"
             android:layout_height="100dp"
-            android:background="@color/powder"
+            android:background="@color/medium"
             android:layout_marginRight="11px"
             android:layout_marginBottom="11px"
             >
@@ -68,7 +74,7 @@
         <Button
             android:layout_width="100dp"
             android:layout_height="100dp"
-            android:background="@color/powder"
+            android:background="@color/medium"
             android:layout_marginRight="11px"
             android:layout_marginBottom="11px">
 
@@ -77,7 +83,7 @@
         <Button
             android:layout_width="100dp"
             android:layout_height="100dp"
-            android:background="@color/powder"
+            android:background="@color/medium"
             android:layout_marginBottom="11px">
 
         </Button>
@@ -94,20 +100,20 @@
         <Button
             android:layout_width="100dp"
             android:layout_height="100dp"
-            android:background="@color/powder"
+            android:background="@color/medium"
             android:layout_marginBottom="11px"
-            android:layout_marginTop="11px">
+           >
 
         </Button>
 
         <Button
             android:layout_width="100dp"
             android:layout_height="100dp"
-            android:background="@color/powder"
+            android:background="@color/medium"
             android:layout_marginRight="11px"
             android:layout_marginLeft="11px"
-            android:layout_marginTop="11px"
-            android:layout_marginBottom="11px"
+
+
 
             >
 
@@ -116,9 +122,9 @@
         <Button
             android:layout_width="100dp"
             android:layout_height="100dp"
-            android:background="@color/powder"
+            android:background="@color/medium"
             android:layout_marginBottom="11px"
-            android:layout_marginTop="11px">
+           >
 
         </Button>
 
@@ -130,8 +136,8 @@
         <Button
             android:layout_width="100dp"
             android:layout_height="100dp"
-            android:background="@color/powder"
-            android:layout_marginTop="11px"
+            android:background="@color/medium"
+
             android:layout_marginRight="11px">
 
         </Button>
@@ -139,19 +145,20 @@
         <Button
             android:layout_width="100dp"
             android:layout_height="100dp"
-            android:background="@color/powder"
-            android:layout_marginTop="11px">
+            android:background="@color/medium"
+           >
 
         </Button>
 
         <Button
         android:layout_width="100dp"
         android:layout_height="100dp"
-            android:background="@color/powder"
+            android:background="@color/medium"
             android:layout_marginLeft="11px"
-            android:layout_marginTop="11px">
+            >
 
     </Button>
+    </LinearLayout>
     </LinearLayout>
 
 

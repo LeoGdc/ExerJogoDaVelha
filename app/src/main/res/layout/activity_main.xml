@@ -62,6 +62,7 @@
 
 
     <Button
+        android:id="@+id/JvJ"
         android:layout_width="221dp"
         android:layout_height="60dp"
         android:layout_marginTop="100px"
@@ -80,6 +81,7 @@
     </Button>
 
     <Button
+        android:id="@+id/JvC"
         android:layout_width="221dp"
         android:layout_height="60dp"
         android:layout_marginTop="25px"
