@@ -1,0 +1,89 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:background="@drawable/dificuldade"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:id="@+id/linearLayout">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/amatic_sc"
+            android:text="Jogo da Velha"
+            android:textColor="@color/shiny"
+            android:textSize="100px"
+            android:textStyle="bold"
+            android:layout_gravity="start"
+            android:layout_marginLeft="25px"
+            />
+
+
+        <Button
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:layout_marginLeft="520px"
+            android:background="@drawable/icone_voltar"
+            android:backgroundTint="@color/white"
+            app:iconTint="#FfFfFf"
+            app:rippleColor="@color/white"
+
+            >  </Button>
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="220px"
+            android:fontFamily="@font/amatic_sc"
+            android:text="Selecione"
+            android:textColor="@color/black"
+            android:textSize="111px"
+            android:textStyle="bold"></TextView>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="60px"
+                android:layout_marginBottom="450px"
+                android:background="@drawable/x">
+
+            </Button>
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="60px"
+                android:background="@drawable/circle">
+
+            </Button>
+        </LinearLayout>
+
+
+
+
+
+    </LinearLayout>
+
+
+</LinearLayout>

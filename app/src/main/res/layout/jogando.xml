@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fundo_jogo"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:id="@+id/linearLayout">
+
+    <Button
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:layout_marginRight="430px"
+        android:background="@drawable/icone_voltar"
+        android:backgroundTint="@color/white"
+        tools:ignore="SpeakableTextPresentCheck"
+        android:layout_marginTop="10px">
+
+    </Button>
+    <LinearLayout
+        android:layout_width="411dp"
+        android:layout_height="190dp"
+        android:gravity="center_vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/amatic_sc"
+            android:text="Vitórias"
+            android:textColor="@color/black"
+            android:textSize="100px"
+            android:textStyle="bold"
+            android:layout_marginLeft="175px"></TextView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="250px"
+            android:fontFamily="@font/amatic_sc"
+            android:text="Derrotas"
+            android:textColor="@color/black"
+            android:textSize="100px"
+            android:textStyle="bold">
+
+        </TextView>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal">
+
+        <Button
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:background="@color/powder"
+            android:layout_marginRight="11px"
+            android:layout_marginBottom="11px"
+            >
+
+        </Button>
+
+        <Button
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:background="@color/powder"
+            android:layout_marginRight="11px"
+            android:layout_marginBottom="11px">
+
+        </Button>
+
+        <Button
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:background="@color/powder"
+            android:layout_marginBottom="11px">
+
+        </Button>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal">
+
+        <Button
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:background="@color/powder"
+            android:layout_marginBottom="11px"
+            android:layout_marginTop="11px">
+
+        </Button>
+
+        <Button
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:background="@color/powder"
+            android:layout_marginRight="11px"
+            android:layout_marginLeft="11px"
+            android:layout_marginTop="11px"
+            android:layout_marginBottom="11px"
+
+            >
+
+        </Button>
+
+        <Button
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:background="@color/powder"
+            android:layout_marginBottom="11px"
+            android:layout_marginTop="11px">
+
+        </Button>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <Button
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:background="@color/powder"
+            android:layout_marginTop="11px"
+            android:layout_marginRight="11px">
+
+        </Button>
+
+        <Button
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:background="@color/powder"
+            android:layout_marginTop="11px">
+
+        </Button>
+
+        <Button
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+            android:background="@color/powder"
+            android:layout_marginLeft="11px"
+            android:layout_marginTop="11px">
+
+    </Button>
+    </LinearLayout>
+
+
+
+</LinearLayout>
+
+
+
