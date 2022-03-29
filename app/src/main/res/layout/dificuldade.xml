@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".Difficulty"
 
     android:background="@drawable/dificuldade"
     android:gravity="center_horizontal"
@@ -28,6 +29,7 @@
 
 
     <Button
+        android:id="@+id/voltar"
         android:layout_width="35dp"
         android:layout_height="35dp"
         android:layout_marginLeft="520px"
@@ -58,7 +60,7 @@
             android:textStyle="bold"></TextView>
 
         <Button
-
+            android:id="@+id/facil"
             android:layout_width="221dp"
             android:layout_height="60dp"
             android:layout_marginTop="100px"
@@ -70,6 +72,7 @@
         </Button>
         <Button
 
+            android:id="@+id/medio"
             android:layout_width="221dp"
             android:layout_height="60dp"
             android:layout_marginTop="100px"
@@ -81,6 +84,7 @@
         </Button>
         <Button
 
+            android:id="@+id/dificil"
             android:layout_width="221dp"
             android:layout_height="60dp"
             android:layout_marginTop="100px"

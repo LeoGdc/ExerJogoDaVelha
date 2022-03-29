@@ -8,6 +8,7 @@
     android:gravity="center_horizontal"
     android:orientation="vertical"
 
+
     tools:context=".MainActivity"
     android:id="@+id/linearLayout">
 
@@ -62,7 +63,7 @@
 
 
     <Button
-        android:id="@+id/JvJ"
+        android:id="@+id/BT_JvJ"
         android:layout_width="221dp"
         android:layout_height="60dp"
         android:layout_marginTop="100px"
@@ -81,7 +82,7 @@
     </Button>
 
     <Button
-        android:id="@+id/JvC"
+        android:id="@+id/BT_JvC"
         android:layout_width="221dp"
         android:layout_height="60dp"
         android:layout_marginTop="25px"

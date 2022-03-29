@@ -7,9 +7,11 @@
     android:background="@drawable/fundo_jogo"
     android:gravity="center_horizontal"
     android:orientation="vertical"
-    android:id="@+id/linearLayout">
+    android:id="@+id/linearLayout"
+    tools:context=".Jogando">
 
     <Button
+        android:id="@+id/voltar"
         android:layout_width="35dp"
         android:layout_height="35dp"
         android:layout_marginRight="430px"
