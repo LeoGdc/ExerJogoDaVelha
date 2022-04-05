@@ -63,32 +63,37 @@
         android:gravity="center_horizontal"
         android:orientation="horizontal">
 
-        <Button
+        <ImageButton
+            android:id="@+id/bu1"
             android:layout_width="100dp"
             android:layout_height="100dp"
-            android:background="@color/medium"
             android:layout_marginRight="11px"
             android:layout_marginBottom="11px"
-            >
+            android:background="@color/medium"
+            android:onClick="btClick">
 
-        </Button>
+        </ImageButton>
 
-        <Button
+        <ImageButton
+            android:id="@+id/bu2"
             android:layout_width="100dp"
             android:layout_height="100dp"
-            android:background="@color/medium"
             android:layout_marginRight="11px"
-            android:layout_marginBottom="11px">
+            android:layout_marginBottom="11px"
+            android:background="@color/medium"
+            android:onClick="btClick">
 
-        </Button>
+        </ImageButton>
 
-        <Button
+        <ImageButton
+            android:id="@+id/bu3"
             android:layout_width="100dp"
             android:layout_height="100dp"
+            android:layout_marginBottom="11px"
             android:background="@color/medium"
-            android:layout_marginBottom="11px">
+            android:onClick="btClick">
 
-        </Button>
+        </ImageButton>
 
 
     </LinearLayout>
@@ -99,67 +104,71 @@
         android:gravity="center_horizontal"
         android:orientation="horizontal">
 
-        <Button
+        <ImageButton
+            android:id="@+id/bu4"
             android:layout_width="100dp"
             android:layout_height="100dp"
-            android:background="@color/medium"
             android:layout_marginBottom="11px"
-           >
+            android:background="@color/medium"
+            android:onClick="btClick">
 
-        </Button>
+        </ImageButton>
 
-        <Button
+        <ImageButton
+            android:id="@+id/bu5"
             android:layout_width="100dp"
             android:layout_height="100dp"
-            android:background="@color/medium"
-            android:layout_marginRight="11px"
             android:layout_marginLeft="11px"
+            android:layout_marginRight="11px"
+            android:background="@color/medium"
+            android:onClick="btClick">
 
+        </ImageButton>
 
-
-            >
-
-        </Button>
-
-        <Button
+        <ImageButton
+            android:id="@+id/bu6"
             android:layout_width="100dp"
             android:layout_height="100dp"
-            android:background="@color/medium"
             android:layout_marginBottom="11px"
-           >
+            android:background="@color/medium"
+            android:onClick="btClick">
 
-        </Button>
+        </ImageButton>
 
     </LinearLayout>
 
     <LinearLayout
         android:layout_width="wrap_content"
         android:layout_height="wrap_content">
-        <Button
+
+        <ImageButton
+            android:id="@+id/bu7"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginRight="11px"
+            android:background="@color/medium"
+            android:onClick="btClick">
+
+        </ImageButton>
+
+        <ImageButton
+            android:id="@+id/bu8"
             android:layout_width="100dp"
             android:layout_height="100dp"
             android:background="@color/medium"
+            android:onClick="btClick">
 
-            android:layout_marginRight="11px">
+        </ImageButton>
 
-        </Button>
-
-        <Button
+        <ImageButton
+            android:id="@+id/bu9"
             android:layout_width="100dp"
             android:layout_height="100dp"
-            android:background="@color/medium"
-           >
-
-        </Button>
-
-        <Button
-        android:layout_width="100dp"
-        android:layout_height="100dp"
-            android:background="@color/medium"
             android:layout_marginLeft="11px"
-            >
+            android:background="@color/medium"
+            android:onClick="btClick">
 
-    </Button>
+        </ImageButton>
     </LinearLayout>
     </LinearLayout>
 

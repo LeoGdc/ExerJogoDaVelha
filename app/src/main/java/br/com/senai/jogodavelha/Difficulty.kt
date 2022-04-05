@@ -34,8 +34,8 @@ class Difficulty:AppCompatActivity() {
     }
     private fun irParaJogando() {
 
-        val player = Intent(this, R.layout.jogando::class.java)
-        startActivity(player)
+        val difficulty = Intent(this, Jogando::class.java)
+        startActivity(difficulty)
     }
 }
 

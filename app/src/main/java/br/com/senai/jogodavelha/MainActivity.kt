@@ -32,7 +32,7 @@ class MainActivity : AppCompatActivity() {
     }
     private fun irParaPlayer() {
 
-        val player = Intent(this, jogando::class.java)
+       val player = Intent (this, Jogando::class.java)
         startActivity(player)
     }
 
@@ -41,4 +41,5 @@ class MainActivity : AppCompatActivity() {
         val difficulty = Intent(this, Difficulty::class.java)
         startActivity(difficulty)
     }
+
 }
