@@ -7,6 +7,7 @@ import android.os.Bundle
 import br.com.senai.jogodavelha.R.layout.jogando
 import android.content.Intent
 import android.media.Image
+import android.os.Handler
 import android.view.View
 import android.widget.Button
 import android.widget.ImageButton
@@ -27,8 +28,9 @@ class Jogando:AppCompatActivity() {
         }
     }
     /////////////////////////////////////resetando///////////////////////////////////////////////////
-    fun resetando(){
-
+    fun reset(){
+        finish();
+        startActivity(this.intent);
     }
     ////////////////////////////////////setando id nos buttons///////////////////////////////////////
     fun btClick(view: View){
@@ -49,6 +51,8 @@ class Jogando:AppCompatActivity() {
         ////////////////////////////verificando se acabou o game/////////////////////////
         if (gameover == false){
             playGame(celID, btSelected )
+        } else {
+            Handler().postDelayed({reset()}, 10)
         }
 
     }
@@ -75,7 +79,7 @@ class Jogando:AppCompatActivity() {
         btSelected.isEnabled = false
         checkWinner()
     }
-
+//////////////////////////////// /////////verificando quem ganhou//////////////////////////////
     fun checkWinner (){
         var winner = -1
 
